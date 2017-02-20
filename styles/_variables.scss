@@ -1,0 +1,98 @@
+//== Colors
+
+//==== Brand Palette
+$iyield-blue: #016799;
+$cerulean: #0087bb;
+$dark-slate-grey: #3f4a5c;
+$slate-grey: #6d8698;
+$light-steel: #dce3ed;
+
+$iyield-gradient: linear-gradient(to top right, $iyield-blue, $cerulean);
+
+//==== Grays
+$gray-base: $slate-grey;
+$gray: $gray-base;
+$gray-light: $light-steel;
+$gray-dark: $dark-slate-grey;
+$gray-lighter: lighten($light-steel, 5%);
+$gray-darker: $dark-slate-grey;
+
+//==== UI
+$brand-primary: $iyield-blue;
+$brand-success: #07A684;
+$brand-info: #72C6FF;
+$brand-warning: #FFD460;
+$brand-danger: #D3522C;
+
+$state-success-text: $brand-success;
+$state-success-bg: lighten($brand-success, 60%);
+$state-success-border: darken(adjust-hue($state-success-bg, -10), 5%);
+
+$state-info-text: darken($brand-info, 10%);
+$state-info-bg: lighten($brand-info, 20%);
+$state-info-border: darken(adjust-hue($state-info-bg, -10), 7%);
+
+$state-warning-text: #8a6d3b;
+$state-warning-bg: lighten($brand-warning, 20%);
+$state-warning-border: darken(adjust-hue($state-warning-bg, -10), 5%);
+
+$state-danger-text: $brand-danger;
+$state-danger-bg: lighten($brand-danger, 40%);
+$state-danger-border: darken(adjust-hue($state-danger-bg, -10), 5%);
+
+//== Fonts
+$font-family-sans-serif:"Roboto", Helvetica, Arial, sans-serif;
+$headings-font-weight: normal;
+$headings-color: $iyield-blue;
+$icon-font-path: "../assets/fonts/bootstrap/";
+
+//== Geometry
+$border-radius-base: 0;
+$border-radius-large: 0;
+$border-radius-small: 0;
+
+//== Geometry
+$btn-border-radius-base: 2px;
+$btn-border-radius-large: 2px;
+$btn-border-radius-small: 3px;
+//== Inputs
+$input-border-focus: $cerulean;
+
+//== Dropdowns
+$dropdown-link-hover-bg: $gray-lighter;
+
+//== Jumbotron
+$jumbotron-color: $gray;
+$jumbotron-heading-color: $brand-primary;
+
+//== Buttons
+$btn-primary-border: transparent;
+
+//== Navbar
+$navbar-default-color: $gray-dark;
+$navbar-default-bg: $gray-lighter;
+$navbar-default-link-color: $gray-dark;
+$navbar-default-link-hover-color: darken($gray-dark, 15%);
+$navbar-default-link-active-color: $brand-primary;
+$navbar-default-link-disabled-color: $gray-light;
+$navbar-default-toggle-hover-bg: $gray-light;
+$navbar-default-toggle-icon-bar-bg: $gray-dark;
+$navbar-default-toggle-border-color: $gray-light;
+
+//==== Inverted Navbar
+$navbar-inverse-bg: $brand-primary;
+$navbar-inverse-toggle-hover-bg: darken($brand-primary, 10%);
+$navbar-inverse-border: transparent;
+$navbar-inverse-toggle-border-color: transparent;
+
+//== Panels
+$panel-inner-border: $gray-lighter;
+$panel-footer-bg: $gray-light;
+$panel-default-border: $gray-light;
+$panel-default-heading-bg: $gray-light;
+
+//== Progress Bars
+$progress-bg: $gray-lighter;
+
+//== Wells
+$well-bg: $gray-lighter;

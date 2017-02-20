@@ -19,8 +19,8 @@ exclude:
   - Gemfile.lock
 sass:
   sass_dir: styles
-  style: :compressed
 gems:
   - jekyll-bootstrap-sass
+  - jekyll-autoprefixer
 bootstrap:
   assets: true
