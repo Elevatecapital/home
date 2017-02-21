@@ -18,9 +18,14 @@ exclude:
   - Gemfile
   - Gemfile.lock
 sass:
-  sass_dir: styles
+  sass_dir: _assets/stylesheets
 gems:
+  - jekyll-assets
   - jekyll-bootstrap-sass
   - jekyll-autoprefixer
 bootstrap:
   assets: true
+assets:
+  assets:
+    - "*.png"
+    - "styles.css"
