@@ -34,3 +34,6 @@ assets:
     - "*.png"
     - "*.jpg"
     - "styles.css"
+    - "*.ico"
+    - "*.json"
+    - "*.xml"
