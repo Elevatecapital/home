@@ -12,6 +12,7 @@ ruby RUBY_VERSION
 gem "jekyll", "3.4.0"
 gem "jekyll-assets"
 gem "autoprefixer-rails"
+gem "font-awesome-sass"
 
 # Gems for heroku
 gem 'rack-jekyll'

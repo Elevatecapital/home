@@ -1,4 +1,16 @@
+//Libs
 @import 'variables';
 @import 'bootstrap';
-@import 'layout';
-@import 'gradients';
+@import 'font-awesome-sprockets';
+@import 'font-awesome';
+
+//Components
+@import 'components/layout';
+@import 'components/paralax';
+@import 'components/navigation';
+@import 'components/buttons';
+@import 'components/carousels';
+@import 'components/footer';
+
+//Pages
+@import 'pages/homepage';

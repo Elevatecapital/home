@@ -1,0 +1,20 @@
+.paralax-bg {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.homepage {
+  .marquee.paralax-bg {
+    background-image: url('/assets/marquee-bg-homepage.jpg');
+  }
+
+  .quote-carousel.paralax-bg {
+    background-image: url('/assets/marquee-bg-quote-carousel.jpg');
+  }
+
+  .about-us.paralax-bg {
+    background-image: url('/assets/marquee-bg-homepage-about-us.jpg');
+  }
+}

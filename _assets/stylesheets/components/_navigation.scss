@@ -1,0 +1,42 @@
+.navbar-main {
+  width: 100%;
+  border: none;
+  padding: 7px;
+  transition: background-color 0.1s linear;
+  z-index: 100;
+
+  .logo {
+    padding: 5px;
+  }
+
+  &.affix-top {
+    background-color: transparent;
+    position: fixed;
+
+    .navbar-toggle {
+      background: $iyield-gradient;
+      border-color: transparent;
+      transition: background-color 0.1s linear;
+
+      .icon-bar {
+        background-color: #fff;
+      }
+    }
+  }
+
+  &.affix {
+    background-color: #fff;
+  }
+
+  a {
+    font-weight: bold;
+  }
+
+  .navbar-collapse {
+    border: none;
+  }
+}
+
+.navbar-inverse {
+  background: $iyield-gradient;
+}

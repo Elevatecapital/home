@@ -1,0 +1,22 @@
+html,
+body {
+  height: 100%;
+}
+
+img.fluid-width {
+  width: 100%;
+}
+
+body {
+  overflow: auto;
+}
+
+.no-gutter > [class*='col-'] {
+  padding-right:0;
+  padding-left:0;
+}
+
+section.container,
+section.container-fluid {
+  margin-bottom: 40px;
+}
