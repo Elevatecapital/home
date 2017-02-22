@@ -15,8 +15,12 @@
 # in the templates via {{ site.myvariable }}.
 # Build settings
 exclude:
+  - config.ru
   - Gemfile
   - Gemfile.lock
+  - Procfile
+  - Rakefile
+  - vendor
 sass:
   sass_dir: _assets/stylesheets
 gems:
