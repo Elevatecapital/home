@@ -8,6 +8,7 @@ $slate-grey: #6d8698;
 $light-steel: #dce3ed;
 
 $iyield-gradient: linear-gradient(to top right, $iyield-blue, $cerulean);
+$iyield-gradient-lighter: linear-gradient(to top right, lighten($iyield-blue, 4%), lighten($cerulean, 4%));
 
 //==== Grays
 $gray-base: $slate-grey;

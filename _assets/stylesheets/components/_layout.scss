@@ -1,14 +1,19 @@
-html,
+html {
+  height: 100%;
+}
+
 body {
   height: 100%;
 }
 
-img.fluid-width {
+body > div.wrapper {
   width: 100%;
+  min-height: 100%;
+  display: table;
 }
 
-body {
-  overflow: auto;
+img.fluid-width {
+  width: 100%;
 }
 
 .no-gutter > [class*='col-'] {
@@ -19,4 +24,11 @@ body {
 section.container,
 section.container-fluid {
   margin-bottom: 40px;
+}
+
+.anchor {
+  display: block;
+  position: relative;
+  top: -60px;
+  visibility: hidden;
 }

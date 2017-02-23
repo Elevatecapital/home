@@ -1,8 +1,13 @@
 footer {
   background-color: $gray-lighter;
-  padding: 40px 0;
   color: $gray;
   font-weight: 300;
+  display: table-row;
+  height: 1%; //sticky-footer-hack
+
+  .row {
+    padding: 40px 0;
+  }
 
   a {
     color: $gray;   
