@@ -1,0 +1,49 @@
+.table-title {
+  background: $gray-light;
+  border-bottom: 0;
+
+  th {
+    font-weight: 400;
+    text-align: center;
+    border: 1px solid $gray-light;
+  }
+}
+
+.table-data-align-right,
+.table-data-title-align-right th {
+  text-align: right;
+}
+
+.table-data-title-line-break span {
+  display: block;
+  font-weight: normal;
+}
+
+.table > thead > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > th,
+.table > tbody > tr > td,
+.table > tfoot > tr > th,
+.table > tfoot > tr > td {
+  border-color: $gray-light;
+}
+
+table tr th {
+  border-color: $gray-light;
+}
+
+.table-grid {
+  table-layout: fixed;
+  text-align: center;
+
+  tr td {
+    border: 1px solid $gray-light;
+  }
+
+  p {
+    margin-bottom: .6em;
+    font-size: 2em;
+    color: $brand-primary;
+  }
+}
+

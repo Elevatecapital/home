@@ -1,0 +1,9 @@
+.report {
+  counter-reset: section-number;
+
+  .section-number {
+    counter-increment: section-number;
+
+    &:before { content: counter(section-number) ". "; }
+  }
+}

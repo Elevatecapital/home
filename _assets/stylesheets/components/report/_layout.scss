@@ -1,0 +1,25 @@
+.report {
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  ul.details-list { padding-left: 1.1em; }
+}
+
+.property-header { display: table; }
+
+.agent-card-wrapper,
+.property-image-wrapper {
+  display: table-cell;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.agent-card-wrapper {
+  width: 25%;
+  vertical-align: middle;
+  border: 1px solid $gray-light;
+}
+
+.property-image-wrapper { width: 75%; }

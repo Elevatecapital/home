@@ -1,0 +1,13 @@
+i.icon {
+  display: inline-block;
+  background-size: 100% 100%;
+
+  &.icon-large {
+    width: 56px;
+    height: 56px;
+  }
+
+  &.icon-pub { background-image: url("../assets/report/icon-bar.png"); }
+  &.icon-restaurant { background-image: url("../assets/report/icon-restaurant.png"); }
+  &.icon-cafe { background-image: url("../assets/report/icon-cafe.png"); }
+}
