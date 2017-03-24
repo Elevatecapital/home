@@ -8,3 +8,5 @@
 
 1. Create a new HTML file in the root directoy
 2. Make sure you add a frontloading comment with a layout defined at the top of the new file (see `index.html` for an example).
+
+build
